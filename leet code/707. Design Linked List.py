@@ -6,7 +6,6 @@ class MyLinkedList:
         """
         self.val = None
         self.next = None
-        self.prev = None
 
     def get(self, index: int) -> int:
         """
@@ -34,6 +33,8 @@ class MyLinkedList:
         """
         if self.val == None:    
             self.val = val
+            return
+            
             
         a = self.val
         b = self.next
@@ -42,4 +43,21 @@ class MyLinkedList:
         self.next = MyLinkedList()
         self.next.val = a
         self.next.next = b
+        
+        return
+        
 
+    def addAtTail(self, val: int) -> None:
+        """
+        Append a node of value val to the last element of the linked list.
+        """
+        if self.val == None:
+            self.val = val
+            return
+            
+        c = self
+        while self.next != None:
+            c = self.next
+        c.next = MyLinkedList()
+        c.next.val = val
+        return
