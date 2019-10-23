@@ -1,8 +1,9 @@
 # DATA-STRUCTURES-AND-ALGORITHMS
 * [Quick Sort](#quick-sort)
+    * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
     * [過程](#過程)
     * [過程(另外存取空間)](#過程另外存取空間)
-* [Heap Sort](#heap-sort)\
+* [Heap Sort](#heap-sort)
 
 
 ## Quick Sort
