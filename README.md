@@ -14,7 +14,7 @@
 ## Linked list
 **連結串列**，使用node(節點)來記錄、表示、儲存資料，並利用pointer指向下一個node，以達到node之間的串接，並以NULL為終點。\
 將node串接起來後，每一個node裡面都有紀錄下一個node的位子，因此我們可以進行**新增節點、刪除節點、走訪節點及取得節點內的資料**等操作。\
-但是若我們要擷取的資料不是在第一個node的話，就必須從第一個開始走訪到我們要找的位置，所以<font color=red>需要花費較長的時間與較大的記憶體處理</font>。
+但是若我們要擷取的資料不是在第一個node的話，就必須從第一個開始走訪到我們要找的位置，所以需要***花費較長的時間與較大的記憶體處理***。
 [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)
 <br>
 <br>
