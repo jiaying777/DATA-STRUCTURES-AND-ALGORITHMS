@@ -1,6 +1,6 @@
 # DATA-STRUCTURES-AND-ALGORITHMS
-[Quick Sort](## Quick Sort)
-[Heap Sort](## Heap Sort)
+[Quick Sort](##Quick Sort)
+[Heap Sort](##Heap Sort)
 
 ## Quick Sort
 **快速排序法**，先決定取一個固定的位子為pivot，再依序將其餘的數值與pivot比大小，將比pivot小的都丟掉左邊，比pivot大的都丟到右邊。 再來將比pivot小的那些數值再比一次大小，並一樣取第一個為pivot，比pivot大的也用同樣的方式處理，直到不能再處理，亦即所有數值都依照大小都排好了。
@@ -18,10 +18,10 @@
 >['26',17,31,44,20] --> small=[17,20] , big=[31,44] , pivotlist=[26] --> return small + pivotlist + big --> [17,20,26,31,44]
 >['93',77,55] --> small=[77,55] , big=[] , pivotlist=[93] 
 >>['77',55] --> small=[55] , big=[] , pivotlist=[77] --> [55,77]
->>>[55,77,93]
+>>>[55,77,93]\
 return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
-
-
+<br>
+<br>
 ## Heap Sort
 ### ***以陣列的形式表現，但要以二元樹的放式理解。***
 每個子結點都必須小於父節點，當子結點大於父結點時，兩者交換位置，直到所有子結點都小於父結點，並且在最後將第一個結點拿出來，再將最後一個結點移到最前面，繼續進行排序，直到排序結束。<br>
