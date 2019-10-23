@@ -1,6 +1,6 @@
 # DATA-STRUCTURES-AND-ALGORITHMS
 * [Linked List](#linked-list)
-* [Stack & Queue]()
+* [Stack & Queue](#stack--queue)
 * [Insertion Sort](#insertion-sort)
 * [Quick Sort](#quick-sort)
     * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
