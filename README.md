@@ -2,7 +2,7 @@
 * [Quick Sort](#quick-sort)
     * [過程](#過程)
     * [過程(另外存取空間)](#過程另外存取空間)
-[Heap Sort](#heap-sort)\
+* [Heap Sort](#heap-sort)\
 
 
 ## Quick Sort
