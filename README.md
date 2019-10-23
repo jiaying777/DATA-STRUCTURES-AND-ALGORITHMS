@@ -1,6 +1,6 @@
 # DATA-STRUCTURES-AND-ALGORITHMS
-[Quick Sort](##Quick Sort)
-[Heap Sort](##Heap Sort)
+[Quick Sort](#Quick Sort)
+[Heap Sort](#Heap Sort)
 
 ## Quick Sort
 **快速排序法**，先決定取一個固定的位子為pivot，再依序將其餘的數值與pivot比大小，將比pivot小的都丟掉左邊，比pivot大的都丟到右邊。 再來將比pivot小的那些數值再比一次大小，並一樣取第一個為pivot，比pivot大的也用同樣的方式處理，直到不能再處理，亦即所有數值都依照大小都排好了。
@@ -14,12 +14,12 @@
 ![](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort%20Demo.jpg)
 
 ### 過程(另外存取空間)
-['54',26,93,17,77,31,44,55,20] --> small=[26,17,31,44,20] , big=[93,77,55] , pivotlist=[54]
->['26',17,31,44,20] --> small=[17,20] , big=[31,44] , pivotlist=[26] --> return small + pivotlist + big --> [17,20,26,31,44]
->['93',77,55] --> small=[77,55] , big=[] , pivotlist=[93] 
->>['77',55] --> small=[55] , big=[] , pivotlist=[77] --> [55,77]
->>>[55,77,93]\
-return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
+>['54',26,93,17,77,31,44,55,20] --> small=[26,17,31,44,20] , big=[93,77,55] , pivotlist=[54]
+>>['26',17,31,44,20] --> small=[17,20] , big=[31,44] , pivotlist=[26] --> return small + pivotlist + big --> [17,20,26,31,44]
+>>['93',77,55] --> small=[77,55] , big=[] , pivotlist=[93] 
+>>>['77',55] --> small=[55] , big=[] , pivotlist=[77] --> [55,77]
+>>>[55,77,93]
+>return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
 <br>
 ## Heap Sort
