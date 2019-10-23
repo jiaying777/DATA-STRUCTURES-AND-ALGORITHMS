@@ -14,14 +14,16 @@
 ![](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort%20Demo.jpg)
 
 ### 過程(另外存取空間)
->['54',26,93,17,77,31,44,55,20] --> small=[26,17,31,44,20] , big=[93,77,55] , pivotlist=[54]
->>['26',17,31,44,20] --> small=[17,20] , big=[31,44] , pivotlist=[26] --> return small + pivotlist + big --> [17,20,26,31,44]
->>['93',77,55] --> small=[77,55] , big=[] , pivotlist=[93] 
->>>['77',55] --> small=[55] , big=[] , pivotlist=[77] --> [55,77]
+['54',26,93,17,77,31,44,55,20] --> small=[26,17,31,44,20] , big=[93,77,55] , pivotlist=[54] 
+
+>['26',17,31,44,20] --> small=[17,20] , big=[31,44] , pivotlist=[26] --> return small + pivotlist + big --> [17,20,26,31,44] 
+>['93',77,55] --> small=[77,55] , big=[] , pivotlist=[93] <br/>
+>>['77',55] --> small=[55] , big=[] , pivotlist=[77] --> [55,77]
 >>>[55,77,93]
->return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
+
+return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
-<br>
+
 ## Heap Sort
 ### ***以陣列的形式表現，但要以二元樹的放式理解。***
 每個子結點都必須小於父節點，當子結點大於父結點時，兩者交換位置，直到所有子結點都小於父結點，並且在最後將第一個結點拿出來，再將最後一個結點移到最前面，繼續進行排序，直到排序結束。<br>
