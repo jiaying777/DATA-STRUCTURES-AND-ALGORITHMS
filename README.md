@@ -33,3 +33,4 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 每個子結點都必須小於父節點，當子結點大於父結點時，兩者交換位置，直到所有子結點都小於父結點，並且在最後將第一個結點拿出來，再將最後一個結點移到最前面，繼續進行排序，直到排序結束。<br>
 
 ![](https://algorithm.yuanbin.me/shared-files/images/Heapsort-example.gif)
+[圖片來源](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
