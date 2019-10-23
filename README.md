@@ -19,7 +19,7 @@
 >>['93',77,55] --> small=[77,55] , big=[] , pivotlist=[93] <br/>
 >>>['77',55] --> small=[55] , big=[] , pivotlist=[77] --> [55,77]
 >>>>[55,77,93]
->return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
+return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
 <br>
 
