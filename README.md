@@ -1,17 +1,28 @@
 # DATA-STRUCTURES-AND-ALGORITHMS
 * [Linked List](#linked-list)
+   * [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)
+   * [Array比較](#array比較)
 * [Stack & Queue](#stack--queue)
+   * [Stack 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/155.%20Min%20Stack.py)
 * [Insertion Sort](#insertion-sort)
 * [Quick Sort](#quick-sort)
-    * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
-    * [過程](#過程)
-    * [過程(另外存取空間)](#過程另外存取空間)
+   * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
+   * [過程](#過程)
+   * [過程(另外存取空間)](#過程另外存取空間)
 * [Heap Sort](#heap-sort)
 
 ## Linked list
+**連結串列**，使用node(節點)來記錄、表示、儲存資料，並利用pointer指向下一個node，以達到node之間的串接，並以NULL為終點。\
+將node串接起來後，每一個node裡面都有紀錄下一個node的位子，因此我們可以進行新增節點、刪除節點、走訪節點及取得節點內的資料等操作。
+[Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)\
+![](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/LinkedList/Intro/f2.png?raw=true)
+[圖面來源](http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html)
+
+### Array比較
+
 
 ## Stack & Queue
-
+[Stack 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/155.%20Min%20Stack.py)
 ## Insertion Sort
 
 
@@ -42,6 +53,8 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 每個子結點都必須小於父節點，當子結點大於父結點時，兩者交換位置，直到所有子結點都小於父結點，並且在最後將第一個結點拿出來，再將最後一個結點移到最前面，繼續進行排序，直到排序結束。<br>
 
 ![](https://algorithm.yuanbin.me/shared-files/images/Heapsort-example.gif)
-[圖片來源](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)\
+[圖片來源](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
+
+
 
 
