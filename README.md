@@ -16,9 +16,11 @@
 將node串接起來後，每一個node裡面都有紀錄下一個node的位子，因此我們可以進行新增節點、刪除節點、走訪節點及取得節點內的資料等操作。
 [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)
 <br>
+<br>
 
 ![](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/LinkedList/Intro/f2.png?raw=true)
 [圖面來源](http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html)
+<br>
 <br>
 
 ### Array比較
