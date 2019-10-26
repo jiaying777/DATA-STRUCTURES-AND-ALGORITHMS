@@ -73,6 +73,10 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 ![](https://algorithm.yuanbin.me/shared-files/images/Heapsort-example.gif)
 [圖片來源](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
+  * index:i
+    * left:2i
+    * right:2i+1
+
 
 
 
