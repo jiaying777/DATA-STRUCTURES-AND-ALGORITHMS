@@ -28,7 +28,7 @@ class Solution(object):
                     list[2*i+1] = temp
                     change = True
 
-                if len(list)>=3:
+                if len(list)>=3 and 2*i+2 <= len(list)-1:
                     if list[2*i+2] > list[i] :
                         temp = list[i]
                         list[i] = list[2*i+2]
@@ -41,8 +41,6 @@ class Solution(object):
                 if 2*i+1 > len(list)-1 :
                     done = False
 
-                if 2*i+2 > len(list)-1 :
-                    done = False
 
         if change == True:
             self.heapsort(list)
