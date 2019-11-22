@@ -49,11 +49,11 @@ class Solution(object):
                 if root.left == None and root.right == None:
                     root=None
                     return
-                if root.left:
-                    nroot = self.maxnode(root.left)
+                if root.right:
+                    nroot = self.minnode(root.right)
                 else:
-                    if root.right:
-                        nroot = self.minnode(root.right)
+                    if root.left:
+                        nroot = self.maxnode(root.left)
                 temp2.remove(nroot.val)
                 root.val = nroot.val
 
