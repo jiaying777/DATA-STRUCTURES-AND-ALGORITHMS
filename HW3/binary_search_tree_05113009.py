@@ -129,14 +129,7 @@ class Solution(object):
         :type new_val: int
         :rtype:TreeNode(the root of new completed binary search tree) (cannot search())
         """
-        
-    def preorder(self,root):
-        print(root.val)
-        if root.left:
-            self.preorder(root.left)
-        if root.right:
-            self.preorder(root.right)
-                
+                        
     def makelist(self,root,temp): 
         temp.append(root.val)
         if root.left:
