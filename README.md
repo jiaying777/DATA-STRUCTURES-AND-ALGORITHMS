@@ -1,3 +1,6 @@
+# HW3
+[學習歷程與流程圖](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb#學習歷程)
+
 # DATA-STRUCTURES-AND-ALGORITHMS
 * [Linked List](#linked-list)
    * [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)
@@ -73,9 +76,16 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 ![](https://algorithm.yuanbin.me/shared-files/images/Heapsort-example.gif)
 [圖片來源](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
 
-  * index:i
+  * python index:i
     * left:2i+1
     * right:2i+2
+    
+    
+    
+## Merge Sort
+
+
+## Binary Tree
 
 
 
