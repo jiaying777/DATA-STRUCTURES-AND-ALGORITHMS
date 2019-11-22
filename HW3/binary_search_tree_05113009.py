@@ -164,3 +164,9 @@ class Solution(object):
                 return leftheight + 1
             else:
                 return rightheight +1
+
+
+#https://www.itread01.com/content/1542339850.html ---> delete 
+#https://github.com/pecu/DSA/blob/master/10_RedBlackTree/RBT.py ---> preorder
+#https://www.itread01.com/content/1542339850.html ---> maxnode & minnode
+#https://www.geeksforgeeks.org/level-order-tree-traversal/ ---> height            
