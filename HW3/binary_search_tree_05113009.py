@@ -101,7 +101,7 @@ class Solution(object):
             self.makelist(root,temp3)
             if root.val == target:
                 root.val = new_val
-                temp[0] = target
+                temp3[0] = new_val
                 if root.left==None and root.right == None:
                     return
             root.left,root.right = None,None
