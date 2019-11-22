@@ -100,7 +100,7 @@ class Solution(object):
             temp4 = []
             self.makelist(root,temp3)
             if root.val == target:
-                root.val = target
+                root.val = new_val
                 temp[0] = target
                 if root.left==None and root.right == None:
                     return
