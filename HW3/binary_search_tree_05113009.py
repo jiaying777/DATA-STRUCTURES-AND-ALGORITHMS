@@ -121,8 +121,8 @@ class Solution(object):
                 for i in temp4:
                     if i == target:
                         i = new_val
-                    self.insert(root,i)
-            return root
+                    self.insert(root,i)  
+        return root
         
         """
         :type root: TreeNode
@@ -163,4 +163,3 @@ class Solution(object):
                 return leftheight + 1
             else:
                 return rightheight +1
-   
