@@ -88,3 +88,7 @@ class MyHashSet:
     
 
 
+#https://www.youtube.com/watch?v=oqzStHk36PI&feature=youtu.be 程式碼參考
+#https://blog.kdchang.cc/2017/08/15/learning-programming-and-coding-with-python-list-tuple-dict-set/ 觀念參考
+#https://www.itread01.com/content/1542966064.html 觀念參考
+#http://codepad.org/NxRlGE3H 程式碼格式範例
