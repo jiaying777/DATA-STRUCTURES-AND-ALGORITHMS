@@ -21,6 +21,7 @@ class MyHashSet:
         index = temp % self.capacity
         if self.data[index] == None:
             self.data[index] = ListNode(temp)
+            return
         else:
             node = self.data[index]
             while node:
@@ -40,24 +41,28 @@ class MyHashSet:
         temp = self.MD5(key)
         temp = int(temp,16)
         index = temp % self.capacity
+        node = self.data[index]
+        prenode = node 
         
-        if self.data[index].val == temp:
-            if self.data[index].next:
-                self.data[index] = self.data[index].next
-            else:
-                self.data[index] = None
-        else:
-            node = self.data[index]
-            while node.next:
-                if node.next.val == temp:
-                    if node.next.next:
-                        node.next = node.next.next
-                        return
-                    else:
-                        node.next = None
-                        return
-                if node.next.next:
-                    node = node.next
+        if node:
+            if node.val == temp:
+                if node.next:
+                    self.data[index] = node.next
+                    return
+                else:
+                    self.data[index] = None
+                    return
+        
+        while node:
+            if node.val == temp:
+                if node.next:
+                    prenode.next = node.next
+                    return
+                else:
+                    prenode.next = None
+                    return
+            prenode = node
+            node = node.next        
 
         
         """
