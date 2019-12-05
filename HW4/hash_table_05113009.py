@@ -2,19 +2,12 @@ class ListNode:
     def __init__(self, val):
         self.val = val
         self.next = None
-        """
-        :type val: int
-        :type next: ListNode
-        :rtype: None        
-        """
+
 class MyHashSet:
     def __init__(self, capacity=5):
         self.capacity = capacity
         self.data = [None] * capacity
-        """
-        :type capacity: int
-        :rtype: None
-        """
+
     def add(self, key):
         temp = self.MD5(key)
         temp = int(temp,16)
@@ -33,10 +26,7 @@ class MyHashSet:
                 node = node.next
 
                   
-        """
-        :type key: str
-        :rtype: None
-        """
+
     def remove(self, key):
         temp = self.MD5(key)
         temp = int(temp,16)
@@ -65,10 +55,7 @@ class MyHashSet:
             node = node.next        
 
         
-        """
-        :type key: str
-        :rtype: None
-        """
+
     def contains(self, key):
         temp = self.MD5(key)
         temp = int(temp,16)
@@ -82,10 +69,7 @@ class MyHashSet:
         return False       
         
         
-        """
-        :type key: str
-        :rtype: bool(True or False)
-        """
+
     def MD5(self, key):
         from Crypto.Hash import MD5
         a = MD5.new(key.encode('utf-8'))
