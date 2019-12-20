@@ -46,6 +46,6 @@ class Graph:
         return temp2
 
 
-# https://docs.google.com/presentation/d/e/2PACX-1vTma_vOZyE70O23KWw4I4Y78aAaT5fJSTq7Mae912kCwka_u5ZMWPoo14D86-x-57kZPbb6hAGktSW4/pub?start=false&loop=false&delayms=3000&slide=id.g7aa022d8bc_2_5
-# http://codepad.org/bIExbqAn
-# https://codertw.com/程式語言/365414/
+# https://docs.google.com/presentation/d/e/2PACX-1vTma_vOZyE70O23KWw4I4Y78aAaT5fJSTq7Mae912kCwka_u5ZMWPoo14D86-x-57kZPbb6hAGktSW4/pub?start=false&loop=false&delayms=3000&slide=id.g7aa022d8bc_2  *觀念參考_5 
+# http://codepad.org/bIExbqAn     *程式碼格式範例
+# https://codertw.com/程式語言/365414/    *defaultdict觀念參考
