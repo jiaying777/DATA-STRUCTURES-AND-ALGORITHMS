@@ -8,6 +8,8 @@ class Graph:
         self.graph[u].append(v) 
   
     def BFS(self, s): 
+        if s not in self.graph:
+            return 
         temp1 = []
         temp1.extend(self.graph[s])
         temp2 = [s]
@@ -26,6 +28,8 @@ class Graph:
 
         
     def DFS(self, s):
+        if s not in self.graph:
+            return 
         temp1 = []
         temp1.extend(self.graph[s])
         temp2 = [s]
