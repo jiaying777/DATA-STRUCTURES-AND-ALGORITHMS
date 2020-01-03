@@ -15,9 +15,8 @@ Hash常用於：搜尋引擎、檔案校對碼、使用者密碼儲存比對。<
 只需要將使用者輸入的密碼hash過後再進行比對，也可以將不公開的密碼加密後存入Hash Table裡，這樣既可以比對密碼是否正確，也可防止密碼外洩的可能性。<br>
 Hash功能：新增、刪除、查詢
 
-
-
-
+<br>
+<br>
 
 ## 流程圖
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_add.png" width="70%"> 
