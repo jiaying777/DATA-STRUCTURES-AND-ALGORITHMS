@@ -16,6 +16,9 @@ Hash常用於：搜尋引擎、檔案校對碼、使用者密碼儲存比對。<
 Hash功能：新增、刪除、查詢
 
 
+
+
+
 ## 流程圖
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_add.png" width="70%"> 
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_contains.png" width="70%"> 
