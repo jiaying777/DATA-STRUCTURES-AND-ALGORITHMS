@@ -25,6 +25,7 @@
 
 時間複雜度  | Quick Sort | Heap Sort | Merge Sort | Insertion Sort | Seletion Sort| 
 -------------|------------|-----------|------------|----------------|--------------|
+
 Best Case    | NlogN      |NlogN |NlogN |N|N^2
 Average Case | NlogN      |NlogN |NlogN |N^2|N^2
 Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
