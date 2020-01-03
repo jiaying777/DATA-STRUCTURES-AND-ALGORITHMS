@@ -12,8 +12,10 @@ Binary Search Tree:
 <br>
 
 [功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)\
-[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)\ 
-[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)\
+
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)
+
+[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
 <br>
 
 ## insert
