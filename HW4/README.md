@@ -1,7 +1,7 @@
 # Hash Table
 
-    - [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash_table_05113009.py)
-    - [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash%20table%20學習歷程、流程圖與文字說明.ipynb)
+   - [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash_table_05113009.py)
+   - [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash%20table%20學習歷程、流程圖與文字說明.ipynb)
 
 * Hash Function 是將輸入的值轉譯成另外的值，特性為快速、單向性、不可逆性，只有輸入的值能得到輸出的值，輸出的值無法反向得到輸入的值。且好的Hash Function 不易出現碰撞，所以當出現碰撞卻沒抑制的話，會使資料更難查詢。<br>
 * Hash Table 是一種儲存(key,value)的資料結構，一個key對應一個value，key可以想像成標籤，要找到這筆value就必須要有key才找得到。Table size 若是太小會使資料太過集中，導致查詢效率降低，因此Table size的設定就非常重要。<br>
