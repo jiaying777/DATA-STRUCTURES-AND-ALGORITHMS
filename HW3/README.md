@@ -18,10 +18,13 @@ Binary Search Tree:
 
 ## insert
 insert(root,val)\
+
 新增功能是將一個新的值(val) 放入BST 裡面，每個值都有一個自己的TreeNode，所以我們需要新增一個含有val 的TreeNode ，並且放入BST裡。<br>
 根據BST的規則，左邊放入比自己小的，右邊放比自己大的，一樣大的值也放入左邊(自己設的) 所以我們將要新增的TreeNode(val) 必須根據此規則找到空的位置放入。<br>
+
 例如：<br>
 有一棵樹的值為[6,3,7,3,8,4,9,1]，要新增''4''這個值<br>
+
 樹：
 
                     6
@@ -42,12 +45,15 @@ insert(root,val)\
              /    /        \
             1   '4'          9
             
+            
 因為 4<6(root) 所以往左邊， 4>3(root.left) 往右，4=4(root.left.right) 往左，所以會放在第三層的4左邊，因此新增的TreeNode(4)位置為：root.left.right.left<br>
 <br>
         
 ## delete
 delete(root,target)\
+
 刪除功能是將樹中原有的值刪除，亦即將整個TreeNode(val)刪除，由於刪除其中的TreeNode可能會破壞BST原本的結構與規則，所以我們需要在移動最小結構的狀況下執行。此刪除功能是將所有擁有相同的值的TreeNode都刪除。<br>
+
 例如：<br>
 
 
@@ -69,7 +75,8 @@ delete(root,target)\
                    4      8 
                             \
                              9
-                                        
+                                      
+                                      
 搜尋方式為 3!=6 and 3<6，所以往左，3==3 刪除，因為找到target了，但是有可能有相同的值，根據[insert](#insert)相同的值會放在左邊，所以往左繼續找找看還有沒有含有3的TreeNode，3!=-5 and 3>1，往右但是此處的TreeNode(1)沒有children，則停止搜尋。
 
 如果刪除的TreeNode(val)底下有children ，則刪除的TreeNode會用其底下的TreeNode 來作替代，規則為：<br>
@@ -78,8 +85,10 @@ delete(root,target)\
 
 ## search
 search(root,target)\
+
 搜尋功能是從BST中找出值符合目標的TreeNode，並將其回傳。<br>
 此功能只能回傳離root最近且含有target的TreeNode，所以並不會將所有含target的TreeNode都回傳。<br>
+
 例如：<br>
 
                 6
@@ -101,11 +110,13 @@ search(root,target)\
         1                9
         
         
+        
 則會回傳含有7的TreeNode，位置為：root.left<br>
 <br>
 
 ## modify
 modify(root,target,new_val)\
+
 修改功能是更改BST裡面現有TreeNode的值，由於修改TreeNode的值，所以可能會違反BST的規則，因此需要重建BST。<br>
 
                 6
@@ -125,6 +136,7 @@ modify(root,target,new_val)\
           9    4     8 
          /             \
         1                9
+        
         
 搜尋方式：3!=6 and 3<6 往左，３==3 修改為9，與target相符往左找找看還有沒有相同的值，３==3 修改為9，繼續往左找，3!=1 and 3>1 往右，沒有children了，所以結束搜尋修改。<br>
 修改完的BST並不符合規則，所以我們要進行重建的動作。
