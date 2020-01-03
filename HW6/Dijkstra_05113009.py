@@ -174,3 +174,14 @@ class Graph():
             parent = [a if i == np else i for i in parent]
         
         return parent
+    
+    
+    
+
+#https://kk665403.pixnet.net/blog/post/403711283-%5Bpython%5D-python-dict字典基本操作教學(新增-修改- __程式碼-字典
+#https://chusiang.gitbooks.io/using-python/Dictionary.html __程式碼-字典
+#https://codertw.com/程式語言/370975/ __程式碼-字典
+#https://www.cnblogs.com/muchengnanfeng/p/9810918.html __程式碼-字典最大值
+#https://blog.gtwang.org/programming/python-iterate-through-multiple-lists-in-parallel/ ___程式碼zip
+#https://www.lfhacks.com/tech/python-list-element-replace __程式碼建list
+#https://segmentfault.com/a/1190000004959880 ___程式碼dict排序
