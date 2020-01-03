@@ -32,6 +32,7 @@ insert(root,val)\
             1   '4'          9
             
 因為 4<6(root) 所以往左邊， 4>3(root.left) 往右，4=4(root.left.right) 往左，所以會放在第三層的4左邊，因此新增的TreeNode(4)位置為：root.left.right.left<br>
+<br>
         
 ## delete
 delete(root,target)\
@@ -62,7 +63,7 @@ delete(root,target)\
 
 如果刪除的TreeNode(val)底下有children ，則刪除的TreeNode會用其底下的TreeNode 來作替代，規則為：<br>
 若左邊有children，則找左邊children中值最大的TreeNode來取代，若是左邊沒有則判斷右邊是否有children，如果有則找出右邊值最小的TreeNode來取代。<br>
-
+<br>
 
 ## search
 search(root,target)\
@@ -90,6 +91,7 @@ search(root,target)\
         
         
 則會回傳含有7的TreeNode，位置為：root.left<br>
+<br>
 
 ## modify
 modify(root,target,new_val)\
