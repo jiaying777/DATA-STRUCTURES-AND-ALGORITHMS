@@ -21,6 +21,7 @@ DFS屬於盲目搜索(uninformed search)是利用堆疊(Stack)來處理，確保
 * BFS同深度搜尋完才會往下一層搜尋，DFS先遇到的鄰點就先訪問並以其作為新的搜尋起點。
 
 <br>
+
 ## 流程圖
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/bfs.png" width="70%"> 
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/dfs.png" width="70%"> 
