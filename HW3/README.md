@@ -1,8 +1,17 @@
 # Binary Search Tree
-* [功能說明](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)
-* [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)
-* [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
+BST為二元樹，亦即每一個節點底下都只能有兩個子節點，BST與Binary Tree最大的差別在於有大小順序，Binary Tree每一個節點底下最多只能有兩個子節點，這點與BST一樣，不過Binary Tree的任意子節點可以大於、等於或小於父節點，但BST不行，BST需要透過比較大小進行搜尋排序等等動作，也正是因為有這項特徵，所以方便我們尋找資料，不需要走訪過每一個節點。
 <br>
+Binary Search Tree:
+* 每個節點底下最多只會有兩個子節點
+* 需比較大小，非數值型資料，則可以新增編號等等，以便排序
+* 有一定的排序規則：
+        - 比節點小的放左邊
+        - 比節點大的放右邊
+        - 與節點相等的可放左或右邊，不過要統一（自行定義
+<br>
+* [功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)
+* [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)
+* [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
 <br>
 
 ## insert
