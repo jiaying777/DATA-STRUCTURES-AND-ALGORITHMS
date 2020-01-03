@@ -3,6 +3,7 @@
 
 
        j     | Quick Sort 
-Best Case    | NlogN      
-Average Case | NlogN      
-Worst Case   | N^2        
+       -------------|------------ 
+       Best Case    | NlogN      
+       Average Case | NlogN      
+       Worst Case   | N^2        
