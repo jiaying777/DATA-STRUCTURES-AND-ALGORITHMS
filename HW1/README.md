@@ -1,4 +1,4 @@
-#Quick Sort
+# Quick Sort
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick%20Sort%20程式碼與學習歷程.ipynb)<br>
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick_Sort_05113009.py)
 <br/><br/><br/><br/><br/>
