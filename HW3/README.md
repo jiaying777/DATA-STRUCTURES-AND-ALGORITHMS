@@ -8,16 +8,14 @@ Binary Search Tree:
 * 有一定的排序規則：
         - 比節點小的放左邊
         - 比節點大的放右邊
-        - 與節點相等的可放左或右邊，不過要統一（自行定義
+        - 與節點相等的可放左或右邊，不過要統一（自行定義）
 <br>
 
-* [功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)
-* [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)
-* [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
+[功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
 <br>
 
 ## insert
-insert(root,val)\
+insert(root,val)
 
 新增功能是將一個新的值(val) 放入BST 裡面，每個值都有一個自己的TreeNode，所以我們需要新增一個含有val 的TreeNode ，並且放入BST裡。<br>
 根據BST的規則，左邊放入比自己小的，右邊放比自己大的，一樣大的值也放入左邊(自己設的) 所以我們將要新增的TreeNode(val) 必須根據此規則找到空的位置放入。<br>
@@ -50,7 +48,7 @@ insert(root,val)\
 <br>
         
 ## delete
-delete(root,target)\
+delete(root,target)
 
 刪除功能是將樹中原有的值刪除，亦即將整個TreeNode(val)刪除，由於刪除其中的TreeNode可能會破壞BST原本的結構與規則，所以我們需要在移動最小結構的狀況下執行。此刪除功能是將所有擁有相同的值的TreeNode都刪除。<br>
 
@@ -84,7 +82,7 @@ delete(root,target)\
 <br>
 
 ## search
-search(root,target)\
+search(root,target)
 
 搜尋功能是從BST中找出值符合目標的TreeNode，並將其回傳。<br>
 此功能只能回傳離root最近且含有target的TreeNode，所以並不會將所有含target的TreeNode都回傳。<br>
@@ -115,7 +113,7 @@ search(root,target)\
 <br>
 
 ## modify
-modify(root,target,new_val)\
+modify(root,target,new_val)
 
 修改功能是更改BST裡面現有TreeNode的值，由於修改TreeNode的值，所以可能會違反BST的規則，因此需要重建BST。<br>
 
