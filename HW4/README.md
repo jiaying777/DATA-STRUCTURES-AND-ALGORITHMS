@@ -17,4 +17,4 @@ Hash功能：新增、刪除、查詢
 
 
 
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_add.png" width="50%"> 
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_add.png" width="70%"> 
