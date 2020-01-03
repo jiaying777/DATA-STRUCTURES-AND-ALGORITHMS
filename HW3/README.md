@@ -1,4 +1,10 @@
 # Binary Search Tree
+* [功能說明](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)
+* [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)
+* [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
+<br>
+<br>
+<br>
 ## insert
 insert(root,val)\
 新增功能是將一個新的值(val) 放入BST 裡面，每個值都有一個自己的TreeNode，所以我們需要新增一個含有val 的TreeNode ，並且放入BST裡。<br>
@@ -26,28 +32,102 @@ insert(root,val)\
             1   '4'          9
             
 因為 4<6(root) 所以往左邊， 4>3(root.left) 往右，4=4(root.left.right) 往左，所以會放在第三層的4左邊，因此新增的TreeNode(4)位置為：root.left.right.left<br>
-
-所以根據這個邏輯，我的程式碼運作為：如果沒有root，那麼root = TreeNode(val)，如果 val>root.val 則往右，val<=root.val 則往左。<br>
-
-    if val>root.val:
-        root.right = TreeNode(val)
-    if val<=root.val:
-        root.left = TreeNode(val)
         
-但是我們必須先判斷root是否有children，如果有我們就要往下一層尋找空的位置，所以需要增加條件：<br>
+## delete
+delete(root,target)\
+刪除功能是將樹中原有的值刪除，亦即將整個TreeNode(val)刪除，由於刪除其中的TreeNode可能會破壞BST原本的結構與規則，所以我們需要在移動最小結構的狀況下執行。此刪除功能是將所有擁有相同的值的TreeNode都刪除。<br>
+例如：<br>
 
-    if val>root.val:
-        if root.right == None:
-            root.right = TreeNode(val)
-        else:
-            insert(root.right,val)
+
+                    6
+                   /  \
+                 3     7
+                / \     \
+              3    4     8 
+             /             \
+            1                9
             
-    if val<=root.val:
-        if root.left == None:
-            root.left = TreeNode(val)
-        else:
-            insert(root.left,val)
-            
-使用遞迴 insert(root,val) 再進行下一層的搜索，直到找到適當的位置後，放入新增的TreeNode(val)         
+刪除數值為3的TreeNode，有2個TreeNode的值為3，所以需要都刪除：<br>
+
+
+                    6
+                   /  \
+                 1     7
+                  \      \
+                   4      8 
+                            \
+                             9
+                                        
+搜尋方式為 3!=6 and 3<6，所以往左，3==3 刪除，因為找到target了，但是有可能有相同的值，根據[insert](#insert)相同的值會放在左邊，所以往左繼續找找看還有沒有含有3的TreeNode，3!=-5 and 3>1，往右但是此處的TreeNode(1)沒有children，則停止搜尋。
+
+如果刪除的TreeNode(val)底下有children ，則刪除的TreeNode會用其底下的TreeNode 來作替代，規則為：<br>
+若左邊有children，則找左邊children中值最大的TreeNode來取代，若是左邊沒有則判斷右邊是否有children，如果有則找出右邊值最小的TreeNode來取代。<br>
+
+
+## search
+search(root,target)\
+搜尋功能是從BST中找出值符合目標的TreeNode，並將其回傳。<br>
+此功能只能回傳離root最近且含有target的TreeNode，所以並不會將所有含target的TreeNode都回傳。<br>
+例如：<br>
+
+                6
+               /  \
+             3     7
+            / \     \
+          3    4     8 
+         /             \
+        1                9
+        
+搜尋target = 7：
+
+                6
+               /  \
+             3    '7'
+            / \     \
+          3    4     8 
+         /             \
+        1                9
+        
+        
+則會回傳含有7的TreeNode，位置為：root.left<br>
+
+## modify
+modify(root,target,new_val)\
+修改功能是更改BST裡面現有TreeNode的值，由於修改TreeNode的值，所以可能會違反BST的規則，因此需要重建BST。<br>
+
+                6
+               /  \
+             3     7
+            / \     \
+          3    4     8 
+         /             \
+        1                9
+        
+修改3為9：
+
+                6
+               /  \
+             9     7
+            / \     \
+          9    4     8 
+         /             \
+        1                9
+        
+搜尋方式：3!=6 and 3<6 往左，３==3 修改為9，與target相符往左找找看還有沒有相同的值，３==3 修改為9，繼續往左找，3!=1 and 3>1 往右，沒有children了，所以結束搜尋修改。<br>
+修改完的BST並不符合規則，所以我們要進行重建的動作。
+
+                6
+               /  \
+             1     9
+              \     \
+               4     9 
+                       \
+                        7
+                          \
+                           8
+                             \
+                              9
+                              
+重建完的BST的深度比原本還要深且變成linked list，這樣就失去BST的好處了，所以我們需要對BST在進行一次重建。<br>
 
 
