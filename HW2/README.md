@@ -45,5 +45,6 @@ Merge Sort 和 Heap Sort 最大的差別是Merge Sort 是以陣列的形式表�
 <br>
 
 ## 流程圖
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/圖/heap%20sort%20圖.png" width="50%">  <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/圖/merge%20sort%20圖.png" width="50%">
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/heap%20sort%20圖.png" width="50%">  <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/merge%20sort%20圖.png" width="50%">
 
