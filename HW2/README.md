@@ -3,6 +3,7 @@
 * 比較後，最頂端的父節點為此數列的最大值，將其取出放入暫存空間 
 * 取出最大值後，再進行一次比較排序
 * 直到將所有數值由大到小都取出後，數列即完成排序
+<br>
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap_sort_05113009.py)
 [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap%20sort%20流程圖、學習歷程與文字說明.pdf)
 <br>
@@ -12,6 +13,7 @@
 * 把數列對半拆解，直到每個數列都只剩一個數值
 * 將拆解好的數列倆倆做比較，比較後再做合併
 * 依此類推，直到所有數列都合併成一個數列，即完成排序
+<br>
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge_sort_05113009.py)
 [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge%20sort%20流程圖、學習歷程與文字說明.pdf)
 <br>
