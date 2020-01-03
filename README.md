@@ -49,7 +49,7 @@
 
 ## Quick Sort
 **快速排序法**，先決定取一個固定的位子為pivot，再依序將其餘的數值與pivot比大小，將比pivot小的都丟掉左邊，比pivot大的都丟到右邊。 再來將比pivot小的那些數值再比一次大小，並一樣取第一個為pivot，比pivot大的也用同樣的方式處理，直到不能再處理，亦即所有數值都依照大小都排好了。
-[Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
+[Quick Sort 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick_Sort_05113009.py)
 
 ### 過程
 ['54',26,93,17,77,31,44,55,20] --> list[left]=93, list[right]=20 --> 交換位置變成['54',26,20,17,77,31,44,55,93] --> list[left]=77, list[right]=44 -->交換位置變成['54',26,20,17,44,31,77,55,93] --> list[left]=77, list[right]=31 --> right < left --> pivot與list[right]交換值 --> [31,26,20,17,44,'54' ,77,55,93] 
