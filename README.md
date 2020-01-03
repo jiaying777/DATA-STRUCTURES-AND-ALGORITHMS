@@ -1,6 +1,3 @@
-# HW3
-[學習歷程與流程圖](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb#學習歷程)
-
 # DATA-STRUCTURES-AND-ALGORITHMS
 * [Linked List](#linked-list)
    * [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)
