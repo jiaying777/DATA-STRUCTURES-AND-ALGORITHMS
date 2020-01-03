@@ -4,8 +4,10 @@
 * 取出最大值後，再進行一次比較排序
 * 直到將所有數值由大到小都取出後，數列即完成排序
 <br>
+
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap_sort_05113009.py)
 [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap%20sort%20流程圖、學習歷程與文字說明.pdf)
+
 <br>
 <br>
 
