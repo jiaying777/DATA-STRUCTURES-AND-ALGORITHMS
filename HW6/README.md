@@ -16,7 +16,7 @@ Kruskal演算法是一種用來尋找無向圖中最小生成樹（Minimum Spann
 
 ## Dijkstra
 
-Dijkstra演算法為指定一個點到其他點的最短路徑（單源最短路徑），最簡單的執行方法就是將每個節點在不經過其他節點的情況下，到其他節點的權重(weight/cost)儲存在串列或陣列裡，因此有幾個節點就需要進行多少次搜尋，時間複雜度為O(V²)。
+Dijkstra演算法為指定一個點到其他點的最短路徑（單源最短路徑-Shortest Path），最簡單的執行方法就是將每個節點在不經過其他節點的情況下，到其他節點的權重(weight/cost)儲存在串列或陣列裡，因此有幾個節點就需要進行多少次搜尋，時間複雜度為O(V²)。
 
 <br>
 
@@ -33,7 +33,7 @@ Dijkstra演算法為指定一個點到其他點的最短路徑（單源最短路
 Minimum Spanning Tree<br>
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Kruskal.png" width="70%"> <br>
 
-Shortest Path
+Shortest Path\
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Dijkstra.png" width="70%"><br>
 
 
