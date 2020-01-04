@@ -30,6 +30,10 @@ Dijkstra演算法為指定一個點到其他點的最短路徑（單源最短路
     
     
 # 流程圖
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Kruskal.png" width="70%"> 
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Dijkstra.png" width="70%">
+Minimum Spanning Tree<br>
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Kruskal.png" width="70%"> <br>
+
+Shortest Path
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Dijkstra.png" width="70%"><br>
+
 
