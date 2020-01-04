@@ -78,6 +78,7 @@ s.isspace() #判斷空格，包含換行
 
 
 #dict
+#https://segmentfault.com/a/1190000004959880
 #按照key值排序
 def sortedDictValues1(adict): 
 	items = adict.items() 
@@ -102,6 +103,8 @@ print sorted(dict1.items(), key=lambda d: d[0])
 sorted(d.items(), lambda x, y: cmp(x[1], y[1]), reverse=True)#反序 
 print sorted(dict1.items(), key=lambda d: d[1])
 #[1]代表按照第1位排序--->Value
+
+
 
 
 # 字串格式化
