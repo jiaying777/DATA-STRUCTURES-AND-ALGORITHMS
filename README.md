@@ -17,7 +17,6 @@ E-mail：05113009@gm.scu.edu.tw
 [LeetCode](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/Leetcode)\
 [Codesignal](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/Codesignal)<br>
 
-[Codesignal](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/Codesignal)<br>
 **每週課程紀錄：**
 * [Week1](#Week1)
 * [Week2](#Week2)
