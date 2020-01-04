@@ -68,3 +68,45 @@ str.upper()        # 把所有字符中的小寫字母轉換成大寫字母
 str.lower()          # 把所有字符中的大寫字母轉换成小寫字母
 str.capitalize()     # 把第一個字母轉化为大寫字母，其餘小寫
 str.title()          # 把每個單詞的第一个字母轉化大寫，其餘小寫 
+
+s.isupper() #判斷字串大寫
+s.islower() #判斷字串小寫
+s.isdigit() #判斷是否為數值
+s.isspace() #判斷空格，包含換行
+
+
+
+
+#dict
+#按照key值排序
+def sortedDictValues1(adict): 
+	items = adict.items() 
+	items.sort() 
+	return [value for key, value in items] 
+
+def sortedDictValues2(adict): 
+	keys = adict.keys() 
+	keys.sort() 
+	return [dict[key] for key in keys]
+
+def sortedDictValues3(adict): 
+	keys = adict.keys() 
+	keys.sort() 
+	return map(adict.get, keys)
+
+#用lambda表答来排序
+sorted(d.items(), lambda x, y: cmp(x[1], y[1]))
+print sorted(dict1.items(), key=lambda d: d[0])
+#d為任一字串皆可，[0]代表按照第0位排序--->Key
+
+sorted(d.items(), lambda x, y: cmp(x[1], y[1]), reverse=True)#反序 
+print sorted(dict1.items(), key=lambda d: d[1])
+#[1]代表按照第1位排序--->Value
+
+
+# 字串格式化
+i='Hello'
+j=123
+print('%s'%i) #s字串
+print('%d'%j) # %d-->int %f-->浮點數
+#https://openhome.cc/Gossip/Python/StringFormat.html
