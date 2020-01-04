@@ -12,8 +12,11 @@
      * [Queue程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/02_LeeCode_232.%20Implement%20Queue%20using%20Stacks.py)
 * [Week4](#Week4)
   * [Insertion Sort](#insertion-sort)
+     * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
+     * [Insertion Sort程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/04_LeeCode_147.%20Insertion%20Sort%20List.py)
 * [Week5](#Week5)
   * [Quick Sort](#quick-sort)
+     * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
      * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
      * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick%20Sort%20程式碼與學習歷程.ipynb)<br>
      * [過程](#過程)
@@ -57,13 +60,12 @@
   * 記憶體空間要求小
 
 # Week3
+[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQ1hb79im0vqpApCttGnXAFRT8SqH9HQP0b_oyVRCV8SVyiHLkHJjidYGAfxkvq468QMumFIDdTeiB-/pub?start=false&loop=false&delayms=3000&slide=id.p)
 ## Stack & Queue
-[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQ1hb79im0vqpApCttGnXAFRT8SqH9HQP0b_oyVRCV8SVyiHLkHJjidYGAfxkvq468QMumFIDdTeiB-/pub?start=false&loop=false&delayms=3000&slide=id.p)\
-[Stack程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/02_LeetCode_155.%20Min%20Stack.py)\
-[Queue程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/02_LeeCode_232.%20Implement%20Queue%20using%20Stacks.py)\
-
 ### Stack
 Stack（堆疊）為一種資料結構，可以用 Array 或是 Linked List 的形式來操作，Stack的特性為「先進後出，後進先出」，就如同籃子一樣，越晚放進去的東西會放在越上面，所以上面的東西得先拿出來，最下面的東西才有可能拿出來。<br>
+[Stack程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/02_LeetCode_155.%20Min%20Stack.py)
+
 
 #### Stack 功能：<br>
 * Push(data)：把資料放進Stack。
@@ -77,6 +79,8 @@ Stack（堆疊）為一種資料結構，可以用 Array 或是 Linked List 的�
 
 ### Queue
 Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的形式來操作，Queue的特性為「先進先出，後進後出」，就如同排隊一樣，先來的人就可以先買東西，後來的人就要等前面的人都買完了才可以買。<br>
+[Queue程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/02_LeeCode_232.%20Implement%20Queue%20using%20Stacks.py)
+
 
 #### Queue 功能：
 * Push(data)：把資料從Queue的「後面」放進Queue，並更新成新的back。
@@ -91,14 +95,30 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 
 
 # Week4
+[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
 ## Insertion Sort
+**插入排序法**,想像手上有一副撲克牌，若想要將紙牌從左到右按照「小到大」排序。\
+Insertion Sort的方法為：將第i張紙牌加入「前i−1張排序過」的紙牌組合，得到i張排序過的紙牌組合。
+
+[Insertion Sort程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/04_LeeCode_147.%20Insertion%20Sort%20List.py)
 
 
+時間複雜度  | Quick Sort | Heap Sort | Merge Sort | Insertion Sort | Seletion Sort| 
+-------------|------------|-----------|------------|----------------|--------------|
+Best Case    | NlogN      |NlogN |NlogN |N|N^2
+Average Case | NlogN      |NlogN |NlogN |N^2|N^2
+Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
+
+[參考資料](http://alrightchiu.github.io/SecondRound/comparison-sort-insertion-sortcha-ru-pai-xu-fa.html)
 
 
 # Week5
+[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
 ## Quick Sort
 **快速排序法**，先決定取一個固定的位子為pivot，再依序將其餘的數值與pivot比大小，將比pivot小的都丟掉左邊，比pivot大的都丟到右邊。 再來將比pivot小的那些數值再比一次大小，並一樣取第一個為pivot，比pivot大的也用同樣的方式處理，直到不能再處理，亦即所有數值都依照大小都排好了。\
+[HW1](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW1)\
 [Quick Sort 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick_Sort_05113009.py)\
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick%20Sort%20程式碼與學習歷程.ipynb)<br>
 
