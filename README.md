@@ -213,14 +213,6 @@ Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick%20Sort%20程式碼與學習歷程.ipynb)<br>
 
 
-時間複雜度  | Quick Sort | Heap Sort | Merge Sort | Insertion Sort | Seletion Sort| 
--------------|------------|-----------|------------|----------------|--------------|
-Best Case    | NlogN      |NlogN |NlogN |N|N^2
-Average Case | NlogN      |NlogN |NlogN |N^2|N^2
-Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
-
-
-
 ### 過程
 ['54',26,93,17,77,31,44,55,20] --> list[left]=93, list[right]=20 --> 交換位置變成['54',26,20,17,77,31,44,55,93] --> list[left]=77, list[right]=44 -->交換位置變成['54',26,20,17,44,31,77,55,93] --> list[left]=77, list[right]=31 --> right < left --> pivot與list[right]交換值 --> [31,26,20,17,44,'54' ,77,55,93] 
 
@@ -257,6 +249,13 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 * 直到將所有數值由大到小都取出後，數列即完成排序
 <br>
 
+時間複雜度  | Quick Sort | Heap Sort | Merge Sort | Insertion Sort | Seletion Sort| 
+-------------|------------|-----------|------------|----------------|--------------|
+Best Case    | NlogN      |NlogN |NlogN |N|N^2
+Average Case | NlogN      |NlogN |NlogN |N^2|N^2
+Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
+<br>
+
 [HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)\
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap_sort_05113009.py)\
 [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap%20sort%20流程圖、學習歷程與文字說明.pdf)
@@ -283,6 +282,13 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 * 把數列對半拆解，直到每個數列都只剩一個數值
 * 將拆解好的數列倆倆做比較，比較後再做合併
 * 依此類推，直到所有數列都合併成一個數列，即完成排序
+
+時間複雜度  | Quick Sort | Heap Sort | Merge Sort | Insertion Sort | Seletion Sort| 
+-------------|------------|-----------|------------|----------------|--------------|
+Best Case    | NlogN      |NlogN |NlogN |N|N^2
+Average Case | NlogN      |NlogN |NlogN |N^2|N^2
+Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
+<br>
 
 [HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)\
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge_sort_05113009.py)\
