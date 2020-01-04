@@ -16,6 +16,7 @@
      * [Insertion Sort程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/04_LeeCode_147.%20Insertion%20Sort%20List.py)
   * [Quick Sort](#quick-sort)
      * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
+     * [老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_QuickSort_LinkedList.py)
      * [HW1](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW1)
      * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
      * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick%20Sort%20程式碼與學習歷程.ipynb)<br>
@@ -30,9 +31,8 @@
      * [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap%20sort%20流程圖、學習歷程與文字說明.pdf)
      * [老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_HeapSort.py)
 * [Week7](#Week7)
-  * [Quick Sort](#quick-sort)
+  * [Merge Sort](#Merge-Sort)
      * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vToxkEzc1H1RT5MI9G941KQFBC7GO_Efn95wTqXLEdr3LDBSNcQb-M46IOC-_RzZih6IBEwwy3rWQuE/pub?start=false&loop=false&delayms=3000&slide=id.p)
-     * [老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_QuickSort_LinkedList.py)
      * [HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)
      * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge_sort_05113009.py)
      * [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge%20sort%20流程圖、學習歷程與文字說明.pdf)
@@ -164,6 +164,8 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 # Week4
 [Insertion Sort課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
 [Quick Sort課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
+ * [老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_QuickSort_LinkedList.py)
+
 
 ## Insertion Sort
 **插入排序法**,想像手上有一副撲克牌，若想要將紙牌從左到右按照「小到大」排序。\
@@ -253,12 +255,12 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
     
 # Week7  
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vToxkEzc1H1RT5MI9G941KQFBC7GO_Efn95wTqXLEdr3LDBSNcQb-M46IOC-_RzZih6IBEwwy3rWQuE/pub?start=false&loop=false&delayms=3000&slide=id.p)\
-[老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_QuickSort_LinkedList.py)
 
 ## Merge Sort
 * 把數列對半拆解，直到每個數列都只剩一個數值
 * 將拆解好的數列倆倆做比較，比較後再做合併
 * 依此類推，直到所有數列都合併成一個數列，即完成排序
+
 [HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)\
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge_sort_05113009.py)\
 [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge%20sort%20流程圖、學習歷程與文字說明.pdf)
