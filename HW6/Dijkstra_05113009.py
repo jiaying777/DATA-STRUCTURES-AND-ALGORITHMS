@@ -16,7 +16,7 @@ class Graph():
         :rtype: None
         """
     def Dijkstra(self, s): 
-        temp1 = [float('inf') if i == 0 else i for i in g.graph[s]]
+        temp1 = [float('inf') if i == 0 else i for i in .graph[s]]
         minone = min(temp1)
         temp1[s] = 0
         temp2 = [s] # 走訪過的點
