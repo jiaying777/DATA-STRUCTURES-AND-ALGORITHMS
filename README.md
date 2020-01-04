@@ -100,7 +100,7 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 ## Insertion Sort
 **插入排序法**,想像手上有一副撲克牌，若想要將紙牌從左到右按照「小到大」排序。\
 Insertion Sort的方法為：將第i張紙牌加入「前i−1張排序過」的紙牌組合，得到i張排序過的紙牌組合。
-
+<br>
 [Insertion Sort程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/04_LeeCode_147.%20Insertion%20Sort%20List.py)
 
 
@@ -109,6 +109,7 @@ Insertion Sort的方法為：將第i張紙牌加入「前i−1張排序過」的
 Best Case    | NlogN      |NlogN |NlogN |N|N^2
 Average Case | NlogN      |NlogN |NlogN |N^2|N^2
 Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
+<br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/comparison-sort-insertion-sortcha-ru-pai-xu-fa.html)
 
