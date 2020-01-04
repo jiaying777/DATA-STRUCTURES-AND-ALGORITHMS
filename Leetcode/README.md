@@ -7,3 +7,5 @@
 [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)\
 [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)\
 [1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)\
+<br>
+其實想要挑戰難一點的題目，但是有礙於時間壓力，所以只好先刷一些簡單的題目。
