@@ -8,10 +8,7 @@ class MyHashSet:
     def __init__(self,capacity=1000):
         self.capacity = capacity
         self.data = [None]*capacity
-        """
-        Initialize your data structure here.
-        """
-        
+
 
     def add(self, key: int) -> None:
         temp = key % self.capacity
@@ -68,14 +65,7 @@ class MyHashSet:
                 return True
             node = node.next
         return False
-        """
-        Returns true if this set contains the specified element
-        """
-        
 
 
-# Your MyHashSet object will be instantiated and called as such:
-# obj = MyHashSet()
-# obj.add(key)
-# obj.remove(key)
-# param_3 = obj.contains(key)
+
+
