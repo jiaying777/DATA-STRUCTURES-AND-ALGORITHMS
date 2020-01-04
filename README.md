@@ -186,7 +186,9 @@ Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 
 
 ## Quick Sort
-**快速排序法**，先決定取一個固定的位子為pivot，再依序將其餘的數值與pivot比大小，將比pivot小的都丟掉左邊，比pivot大的都丟到右邊。 再來將比pivot小的那些數值再比一次大小，並一樣取第一個為pivot，比pivot大的也用同樣的方式處理，直到不能再處理，亦即所有數值都依照大小都排好了。\
+**快速排序法**，先決定取一個固定的位子為pivot，再依序將其餘的數值與pivot比大小，將比pivot小的都丟掉左邊，比pivot大的都丟到右邊。 再來將比pivot小的那些數值再比一次大小，並一樣取第一個為pivot，比pivot大的也用同樣的方式處理，直到不能再處理，亦即所有數值都依照大小都排好了。
+<br>
+
 [HW1](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW1)\
 [Quick Sort 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick_Sort_05113009.py)\
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick%20Sort%20程式碼與學習歷程.ipynb)<br>
@@ -234,6 +236,8 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 * 比較後，最頂端的父節點為此數列的最大值，將其取出放入暫存空間 
 * 取出最大值後，再進行一次比較排序
 * 直到將所有數值由大到小都取出後，數列即完成排序
+<br>
+
 [HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)\
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap_sort_05113009.py)\
 [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap%20sort%20流程圖、學習歷程與文字說明.pdf)
@@ -245,7 +249,7 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
   * python index:i
     * left:2i+1
     * right:2i+2
-  
+<br>  
 
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/heap%20sort%20圖.png" width="50%">
 <br>
@@ -254,7 +258,7 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 [回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
     
 # Week7  
-[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vToxkEzc1H1RT5MI9G941KQFBC7GO_Efn95wTqXLEdr3LDBSNcQb-M46IOC-_RzZih6IBEwwy3rWQuE/pub?start=false&loop=false&delayms=3000&slide=id.p)\
+[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vToxkEzc1H1RT5MI9G941KQFBC7GO_Efn95wTqXLEdr3LDBSNcQb-M46IOC-_RzZih6IBEwwy3rWQuE/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
 ## Merge Sort
 * 把數列對半拆解，直到每個數列都只剩一個數值
@@ -280,6 +284,9 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 若限制node只能有兩個child，等價於「樹上的每一個node之degree皆為2」，此即稱為Binary Tree(二元樹)，並稱兩個child pointer為left child和right child。
 <br>
 
+<img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/BinaryTree_fig/Intro/f2.png?raw=true">
+<br>
+
 [參考資料](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html)\
 [回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
@@ -297,6 +304,8 @@ Binary Search Tree:
         - 比節點小的放左邊
         - 比節點大的放右邊
         - 與節點相等的可放左或右邊，不過要統一（自行定義）
+<br>
+
 [HW3](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW3)\
 [功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)<br>
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)<br>
@@ -348,6 +357,7 @@ Hash常用於：搜尋引擎、檔案校對碼、使用者密碼儲存比對。<
 
 Hash功能：新增、刪除、查詢
 <br>
+
 [HW4](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW4)\
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash_table_05113009.py)<br>
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash%20table%20學習歷程、流程圖與文字說明.ipynb)<br>
@@ -367,6 +377,7 @@ Hash功能：新增、刪除、查詢
 ## Breadth First Search
 **廣度/橫向優先搜尋**，為廣義的Level-Order Traversal，將使用情境從Tree推廣至Graph，先走訪所有相鄰的節點，再以剛剛走訪的節點當作下一次搜尋的起點，搜尋相鄰的所有節點，逐一走訪，直至所有節點都走訪為止。以Tree來說明，就是將同一深度(level)的所有節點都走訪完才會進到下一個深度，直到所有節點都被尋訪過。<br>
 BFS屬於盲目搜索(uninformed search)是利用佇列(Queue)來處理，確保先被走訪到的節點會優先成為新的搜尋起點(先進先出)。<br>
+
 [HW5](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW5)\
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS_05113009.py)<br>
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS%26DFS_流程圖、學習歷程與原理與比較.ipynb)<br>
@@ -384,6 +395,7 @@ BFS屬於盲目搜索(uninformed search)是利用佇列(Queue)來處理，確保
 ## Depth First Search
 **深度/縱向優先搜尋**，是從某一節點出發後，遇到還未走訪的相鄰節點則走訪，直到沒有未走訪的相鄰節點可搜尋，則退回前一個節點尋找是否有還未走訪的節點，直至所有節點都被走訪為止。 <br>
 DFS屬於盲目搜索(uninformed search)是利用堆疊(Stack)來處理，確保先遇到的鄰點就先走訪(後進先出)。<br>
+
 [HW5](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW5)\
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS_05113009.py)<br>
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS%26DFS_流程圖、學習歷程與原理與比較.ipynb)<br>
