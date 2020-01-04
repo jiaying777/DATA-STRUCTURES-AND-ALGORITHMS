@@ -92,6 +92,7 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 * getSize：回傳Queue裡的資料個數。
 <img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/Queue/intro/queue.gif?raw=true">
 <br>
+
 [參考資料](http://alrightchiu.github.io/SecondRound/queue-introjian-jie-bing-yi-linked-listshi-zuo.html)
 
 
