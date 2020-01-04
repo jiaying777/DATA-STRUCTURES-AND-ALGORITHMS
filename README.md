@@ -1,18 +1,18 @@
 # DATA-STRUCTURES-AND-ALGORITHMS
-[Week1](#week1)
-[Week2](#week2)
-* [Linked List](#linked-list)
-   * [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)
+* [Week1](#week1)
+* [Week2](#week2)
+  * [Linked List](#linked-list)
+     * [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/707.%20Design%20Linked%20List.py)
 
-   * [Array比較](#array比較)
-* [Stack & Queue](#stack--queue)
-   * [Stack 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/155.%20Min%20Stack.py)
-* [Insertion Sort](#insertion-sort)
-* [Quick Sort](#quick-sort)
-   * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
-   * [過程](#過程)
-   * [過程(另外存取空間)](#過程另外存取空間)
-* [Heap Sort](#heap-sort)
+     * [Array比較](#array比較)
+  * [Stack & Queue](#stack--queue)
+     * [Stack 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/leet%20code/155.%20Min%20Stack.py)
+  * [Insertion Sort](#insertion-sort)
+  * [Quick Sort](#quick-sort)
+     * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
+     * [過程](#過程)
+     * [過程(另外存取空間)](#過程另外存取空間)
+  * [Heap Sort](#heap-sort)
 
 ## week1
 課程介紹
