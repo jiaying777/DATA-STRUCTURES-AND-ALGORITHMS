@@ -26,7 +26,8 @@
      * []()
 
 # Week1
-課程介紹
+課程介紹\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
 # Week2
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -58,6 +59,8 @@
   * 要快速存取資料
   * 已知矩陣大小、資料數量
   * 記憶體空間要求小
+
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
 # Week3
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQ1hb79im0vqpApCttGnXAFRT8SqH9HQP0b_oyVRCV8SVyiHLkHJjidYGAfxkvq468QMumFIDdTeiB-/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -93,8 +96,8 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 <img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/Queue/intro/queue.gif?raw=true">
 <br>
 
-[參考資料](http://alrightchiu.github.io/SecondRound/queue-introjian-jie-bing-yi-linked-listshi-zuo.html)
-
+[參考資料](http://alrightchiu.github.io/SecondRound/queue-introjian-jie-bing-yi-linked-listshi-zuo.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
 # Week4
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -113,7 +116,8 @@ Average Case | NlogN      |NlogN |NlogN |N^2|N^2
 Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 <br>
 
-[參考資料](http://alrightchiu.github.io/SecondRound/comparison-sort-insertion-sortcha-ru-pai-xu-fa.html)
+[參考資料](http://alrightchiu.github.io/SecondRound/comparison-sort-insertion-sortcha-ru-pai-xu-fa.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
 
 # Week5
@@ -150,7 +154,8 @@ Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 
 return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
-<br>
+
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
 # Week6
 ## Heap Sort
