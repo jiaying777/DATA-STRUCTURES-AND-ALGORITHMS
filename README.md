@@ -75,6 +75,7 @@ Stack（堆疊）為一種資料結構，可以用 Array 或是 Linked List 的�
 * getSize：回傳Stack裡的資料個數，不影響資料結構本身。
 <img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/Stack/intro/f1.png?raw=true" >
 <br>
+
 [參考資料](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
 
 ### Queue
