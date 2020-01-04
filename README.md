@@ -5,7 +5,7 @@
      * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)
      * [Linked List 程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/01_LeetCode_707.%20Design%20Linked%20List.py)
      * [Array比較](#array比較)
-* Week3(#Week3)
+* [Week3](#Week3)
   * [Stack & Queue](#stack--queue)
      * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQ1hb79im0vqpApCttGnXAFRT8SqH9HQP0b_oyVRCV8SVyiHLkHJjidYGAfxkvq468QMumFIDdTeiB-/pub?start=false&loop=false&delayms=3000&slide=id.p)
      * [Stack程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/02_LeetCode_155.%20Min%20Stack.py)
@@ -71,7 +71,7 @@ Stack（堆疊）為一種資料結構，可以用 Array 或是 Linked List 的�
 * Top：回傳「最上面」的資料，不影響資料結構本身。
 * IsEmpty：確認Stack裡是否有資料，不影響資料結構本身。
 * getSize：回傳Stack裡的資料個數，不影響資料結構本身。
-<img scr="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/Stack/intro/f1.png?raw=true" >
+<img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/Stack/intro/f1.png?raw=true" >
 <br>
 [參考資料](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
 
@@ -85,7 +85,7 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 * getBack：回傳back所指向的資料。
 * IsEmpty：確認Queue裡是否有資料。
 * getSize：回傳Queue裡的資料個數。
-<img scr="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/Queue/intro/queue.gif?raw=true">
+<img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/BasicDataStructures/Queue/intro/queue.gif?raw=true">
 <br>
 [參考資料](http://alrightchiu.github.io/SecondRound/queue-introjian-jie-bing-yi-linked-listshi-zuo.html)
 
@@ -116,7 +116,7 @@ Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 
 -->第一次排序完成，接著再將小於54的數列依照此法排序，大於54的數列也是如此，最後就會得出依照大小排序好的 [17, 20, 26, 31, 44, 54, 55, 77, 93]
 
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Quick%20Sort%20Demo.jpg" width="50%"
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Quick%20Sort%20Demo.jpg" width="50%">
 
 ### 過程(另外存取空間)
 >['54',26,93,17,77,31,44,55,20] --> small=[26,17,31,44,20] , big=[93,77,55] , pivotlist=[54] 
