@@ -1,4 +1,5 @@
 # DATA-STRUCTURES-AND-ALGORITHMS
+## 目錄
 * [Week1](#Week1)
 * [Week2](#Week2)
   * [Linked List](#linked-list)
@@ -89,7 +90,7 @@
 
 # Week1
 課程介紹\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week2
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -122,7 +123,7 @@
   * 已知矩陣大小、資料數量
   * 記憶體空間要求小
 
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week3
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQ1hb79im0vqpApCttGnXAFRT8SqH9HQP0b_oyVRCV8SVyiHLkHJjidYGAfxkvq468QMumFIDdTeiB-/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -159,7 +160,7 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 <br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/queue-introjian-jie-bing-yi-linked-listshi-zuo.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week4
 [Insertion Sort課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -182,7 +183,7 @@ Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 <br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/comparison-sort-insertion-sortcha-ru-pai-xu-fa.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 
 ## Quick Sort
@@ -219,12 +220,12 @@ Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
 
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 
 # Week5
 雙十連假停課一次\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week6
 ## Heap Sort
@@ -255,7 +256,7 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
 
 [參考資料](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
     
 # Week7  
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vToxkEzc1H1RT5MI9G941KQFBC7GO_Efn95wTqXLEdr3LDBSNcQb-M46IOC-_RzZih6IBEwwy3rWQuE/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -274,7 +275,7 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
 
 [參考資料](https://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week8
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSC3P8sGElP48mJTjqT309470SmTFBwJXWsU9hTX2hg5tVpiG4yC703qA7ibPep-Qakmm2Mw_F-ScZh/pub?start=false&loop=false&delayms=3000&slide=id.g707e8c8328_0_30)
@@ -288,7 +289,7 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 <br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week9
 [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQgUh73yvSdxAvMH50DHWJ5lsCX8-daMxtoltU9rYW7xCmqYz2A1wOv0Vcx_F9KO5ZUvZBv3IF1TjGi/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -317,7 +318,7 @@ Binary Search Tree:
 <br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week10
 [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vRxyJRARq0BNuGJq_o2cUHIXBWrRSZrAOyXOSt9qCTSjQtyp8XqFq3VuNn3gCt3sXenOZmWLqIjcyFs/pub?start=false&loop=false&delayms=3000&slide=id.p)\
@@ -337,7 +338,7 @@ Red Black Tree 規則：
 <br>
 
 [參考資料](https://alrightchiu.github.io/SecondRound/red-black-tree-introjian-jie.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 
 # Week11
@@ -368,7 +369,7 @@ Hash功能：新增、刪除、查詢
 <br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 
 # Week12
@@ -386,7 +387,7 @@ BFS屬於盲目搜索(uninformed search)是利用佇列(Queue)來處理，確保
 <br>
 
 [參考資料](https://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 
 # Week13
@@ -404,7 +405,7 @@ DFS屬於盲目搜索(uninformed search)是利用堆疊(Stack)來處理，確保
 <br>
 
 [參考資料](https://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 
 # Week14
@@ -428,7 +429,7 @@ Kruskal演算法是一種用來尋找無向圖中最小生成樹（Minimum Spann
 
 [參考資料](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)\
 [參考資料](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week15
 [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vTgHO5AkHJS6iN6bnnBMMdHv6E4rabnrC0KwyTRfjad8Ab3IQjbnGvZuQOjDC9t7nKqeroiwcuasJrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
@@ -453,7 +454,7 @@ Dijkstra演算法為指定一個點到其他點的最短路徑（單源最短路
 <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Dijkstra.png" width="70%"><br>
 
 [參考資料](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dijkstra.html)\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 
 # Week16
@@ -461,12 +462,12 @@ Dijkstra演算法為指定一個點到其他點的最短路徑（單源最短路
 
 ## Overview
 同學分享實作區塊鏈與期末講解\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week17
 期末考\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
 
 # Week18
 課程已結束\
-[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+[回目錄](#目錄)
