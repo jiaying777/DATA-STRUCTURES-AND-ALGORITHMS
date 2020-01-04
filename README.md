@@ -47,6 +47,45 @@
     * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)
     * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
 * [Week10](#Week10)
+  * [Red Black Tree](#Red-Black-Tree)
+    * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vRxyJRARq0BNuGJq_o2cUHIXBWrRSZrAOyXOSt9qCTSjQtyp8XqFq3VuNn3gCt3sXenOZmWLqIjcyFs/pub?start=false&loop=false&delayms=3000&slide=id.p)
+    * [老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/10_RBT.py)
+* [Week11](#Week11)
+  * [Hash Table](#Hash-Table)
+    * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vT1HO9Nl475k2bR0l1x8_Tr4V5Wzx0BEqp9bpmHckvj8kTeJehhYVlOJUDVPhLQm6kjGCJ_sLMSBUw5/pub?start=false&loop=false&delayms=3000&slide=id.p)
+    * [HW4](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW4)
+    * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash_table_05113009.py)
+    * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash%20table%20學習歷程、流程圖與文字說明.ipynb)
+* [Week12](#Week12)
+  * [Breadth First Search](#Breadth-First-Search)
+    * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vSYJYXUXvGAeTZ5fknxj_-EPm3zxgy4ITdImrXzy63Y-iZgs8uwVNmOaZlnx9fUNzsbo8kphvMTa0c4/pub?start=false&loop=false&delayms=3000&slide=id.p)
+    * [HW5](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW5)
+    * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS_05113009.py)
+    * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS%26DFS_流程圖、學習歷程與原理與比較.ipynb)
+* [Week13](#Week13)
+  * [Depth First Search](#Depth-First-Search)
+    * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vTma_vOZyE70O23KWw4I4Y78aAaT5fJSTq7Mae912kCwka_u5ZMWPoo14D86-x-57kZPbb6hAGktSW4/pub?start=false&loop=false&delayms=3000&slide=id.p)
+    * [HW5](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW5)
+    * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS_05113009.py)
+    * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS%26DFS_流程圖、學習歷程與原理與比較.ipynb)
+* [Week14](#Week14)
+  * [Minimum Spanning Tree](#Minimum-Spanning-Tree)
+    * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vTorNDEyhYA4ZAt5jEqOmFs2cQiUAYvkTp-R0DOn9B3c1MuUecV-a1wNakFIrJxA6AoUFGzbl3OQBIJ/pub?start=false&loop=false&delayms=3000&slide=id.p)
+    * [HW6](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW6)
+    * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra_05113009.py)
+    * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra%20%26%20Kruskal%20學習歷程與文字說明.ipynb)
+* [Week15](#Week15)
+  * [Shortest Path](#Shortest-Path)
+    * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vTgHO5AkHJS6iN6bnnBMMdHv6E4rabnrC0KwyTRfjad8Ab3IQjbnGvZuQOjDC9t7nKqeroiwcuasJrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
+    * [HW6](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW6)
+    * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra_05113009.py)
+    * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra%20%26%20Kruskal%20學習歷程與文字說明.ipynb)
+* [Week16](#Week16)
+  * [Overview](#Overview)
+    * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vSkbZghFr5Y3VG3b-BKCZiLNHyhcMIxFmNDHn-tgWQqH4vaGjulKASn_ex_LLDJwxPIRCacGQnBRYrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
+* [Week17期末考](#Week17)
+* [Week18課程結束](#Week18)
+  
 
 # Week1
 課程介紹\
@@ -269,3 +308,151 @@ Binary Search Tree:
 [參考資料](http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html)\
 [回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
+# Week10
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vRxyJRARq0BNuGJq_o2cUHIXBWrRSZrAOyXOSt9qCTSjQtyp8XqFq3VuNn3gCt3sXenOZmWLqIjcyFs/pub?start=false&loop=false&delayms=3000&slide=id.p)\
+[老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/10_RBT.py)
+## Red Black Tree
+Red Black Tree(RBT)是node塗了「顏色」的Binary Search Tree(BST)，藉由控制顏色，能夠保證在RBT中，最長path(路徑)不會超過最短path的兩倍，若最短的path是5，最長的path至多只能是10，如此RBT便能夠近似地視為平衡。\
+平衡方法：改顏色、左旋轉、右旋轉
+
+Red Black Tree 規則：
+* 節點為紅或黑色
+* root一定要為黑色
+* 紅節點只能接黑色，黑色可以接紅色和黑色
+* 每個空節點為黑色
+* 從root到leaf的每條路徑所包含的黑點要相同
+
+<img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Intro/f4.png?raw=true" width="70%">
+<br>
+
+[參考資料](https://alrightchiu.github.io/SecondRound/red-black-tree-introjian-jie.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+
+# Week11
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vT1HO9Nl475k2bR0l1x8_Tr4V5Wzx0BEqp9bpmHckvj8kTeJehhYVlOJUDVPhLQm6kjGCJ_sLMSBUw5/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## Hash Table
+* Hash Function 是將輸入的值轉譯成另外的值，特性為快速、單向性、不可逆性，只有輸入的值能得到輸出的值，輸出的值無法反向得到輸入的值。且好的Hash Function 不易出現碰撞，所以當出現碰撞卻沒抑制的話，會使資料更難查詢。<br>
+* Hash Table 是一種儲存(key,value)的資料結構，一個key對應一個value，key可以想像成標籤，要找到這筆value就必須要有key才找得到。Table size 若是太小會使資料太過集中，導致查詢效率降低，因此Table size的設定就非常重要。<br>
+* Hash 時間複雜度： O(1)     <      ( *array: O(n), binary search tree: O(logn)~O(n)* )<br>
+* Chaining概念：可能有不同的資料分配到同一組，所以用linked list將其都串在一起，可以解決碰撞問題。
+
+在Hash Function設計不良的狀況下，有可能會都分到同一組，導致連接很長的linked list，這樣就失去Hash的優勢了，並且可能會發生碰撞，所以為了減少這種狀況的發生，可以使用Cryptographic Hash Function，利用加密的方式來避免碰撞的發生，所以一般都會使用Cryptographic Hash Function的方法，Cryptographic Hash Function有很多不同的演算法，其中包含常見的MD5、SHA等，除此之外，還可以提高Table size，使資料分佈的更分散且平均，以減少碰撞發生。
+<br>
+
+Hash常用於：搜尋引擎、檔案校對碼、使用者密碼儲存比對。<br>
+只需要將使用者輸入的密碼hash過後再進行比對，也可以將不公開的密碼加密後存入Hash Table裡，這樣既可以比對密碼是否正確，也可防止密碼外洩的可能性。<br>
+
+Hash功能：新增、刪除、查詢
+<br>
+[HW4](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW4)\
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash_table_05113009.py)<br>
+[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW4/hash%20table%20學習歷程、流程圖與文字說明.ipynb)<br>
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_add.png" width="70%"> 
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_contains.png" width="70%"> 
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/hash_remove.png" width="70%"> 
+<br>
+
+[參考資料](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+
+# Week12
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vSYJYXUXvGAeTZ5fknxj_-EPm3zxgy4ITdImrXzy63Y-iZgs8uwVNmOaZlnx9fUNzsbo8kphvMTa0c4/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## Breadth First Search
+**廣度/橫向優先搜尋**，為廣義的Level-Order Traversal，將使用情境從Tree推廣至Graph，先走訪所有相鄰的節點，再以剛剛走訪的節點當作下一次搜尋的起點，搜尋相鄰的所有節點，逐一走訪，直至所有節點都走訪為止。以Tree來說明，就是將同一深度(level)的所有節點都走訪完才會進到下一個深度，直到所有節點都被尋訪過。<br>
+BFS屬於盲目搜索(uninformed search)是利用佇列(Queue)來處理，確保先被走訪到的節點會優先成為新的搜尋起點(先進先出)。<br>
+[HW5](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW5)\
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS_05113009.py)<br>
+[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS%26DFS_流程圖、學習歷程與原理與比較.ipynb)<br>
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/bfs.png" width="70%"> 
+<br>
+
+[參考資料](https://alrightchiu.github.io/SecondRound/graph-breadth-first-searchbfsguang-du-you-xian-sou-xun.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+
+# Week13
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vTma_vOZyE70O23KWw4I4Y78aAaT5fJSTq7Mae912kCwka_u5ZMWPoo14D86-x-57kZPbb6hAGktSW4/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## Depth First Search
+**深度/縱向優先搜尋**，是從某一節點出發後，遇到還未走訪的相鄰節點則走訪，直到沒有未走訪的相鄰節點可搜尋，則退回前一個節點尋找是否有還未走訪的節點，直至所有節點都被走訪為止。 <br>
+DFS屬於盲目搜索(uninformed search)是利用堆疊(Stack)來處理，確保先遇到的鄰點就先走訪(後進先出)。<br>
+[HW5](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW5)\
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS_05113009.py)<br>
+[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW5/BFS%26DFS_流程圖、學習歷程與原理與比較.ipynb)<br>
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/dfs.png" width="70%"> 
+<br>
+
+[參考資料](https://alrightchiu.github.io/SecondRound/graph-depth-first-searchdfsshen-du-you-xian-sou-xun.html)
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+
+# Week14
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vTorNDEyhYA4ZAt5jEqOmFs2cQiUAYvkTp-R0DOn9B3c1MuUecV-a1wNakFIrJxA6AoUFGzbl3OQBIJ/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## Minimum Spanning Tree
+Kruskal演算法是一種用來尋找無向圖中最小生成樹（Minimum Spanning Tree）的演算法，亦即找出圖中邊權重最小的樹，且每個點都要包含在其中，但不需要考慮root應該為哪個點、樹是否有平衡或是樹高大小等等，只需要找出最小權重總和的樹即可。用來解決同樣問題的還有前面Prim演算法和Boruvka演算法等，和Boruvka演算法不同的地方是，Kruskal演算法在圖中存在相同權重的邊時也有效。
+
+    1. 先把每個節點都當成一棵樹
+    2. 再來排序所有邊的權重，由小到大（最小生成樹）
+    3. 若兩節點分別為不同的樹，此條邊則為MST的邊
+    4. 反之若為同一顆樹，連結此邊會產生loop，因此應該捨去這條邊    
+    
+    *** 可能不只有一個解，只要權重為最小即可
+    時間複雜度：O(ElogE)或者O(ElogV)
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra_05113009.py)\
+[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra%20%26%20Kruskal%20學習歷程與文字說明.ipynb)
+<br>
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Kruskal.png" width="70%"> <br>
+
+[參考資料](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)\
+[參考資料](http://www.csie.ntnu.edu.tw/~u91029/SpanningTree.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+# Week15
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vTgHO5AkHJS6iN6bnnBMMdHv6E4rabnrC0KwyTRfjad8Ab3IQjbnGvZuQOjDC9t7nKqeroiwcuasJrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## Shortest Path
+Dijkstra演算法為指定一個點到其他點的最短路徑（單源最短路徑-Shortest Path），最簡單的執行方法就是將每個節點在不經過其他節點的情況下，到其他節點的權重(weight/cost)儲存在串列或陣列裡，因此有幾個節點就需要進行多少次搜尋，時間複雜度為O(V²)。
+
+<br>
+
+    1. 先將所有節點到其他節點（不經過其他節點）的權重存到串列或陣列中，若是無法到達則紀錄∞
+    2. 選定起點(a)，將(a)能到達的點之權重先加入最短路徑中，並找出串列或陣列中距離最近的點(b)，並確定為最短路徑
+    3. 從(a)->(b)->？，將(b)能走到的點之權重加入（a->b->c的權重總和），若為已尋訪過的節點則判斷（a->b->c）是否小於（a->c），如果小於
+        則更新最短路徑的權重，最後再找出未確定節點中距離最近的點。
+    4. 重複執行步驟3，直到全部都確定為起點到任一點的最短路徑為止。
+    
+    時間複雜度：O(V²)   V:節點個數
+[HW6](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW6)\
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra_05113009.py)\
+[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW6/Dijkstra%20%26%20Kruskal%20學習歷程與文字說明.ipynb)
+<br>
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/Dijkstra.png" width="70%"><br>
+
+[參考資料](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dijkstra.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+
+# Week16
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vSkbZghFr5Y3VG3b-BKCZiLNHyhcMIxFmNDHn-tgWQqH4vaGjulKASn_ex_LLDJwxPIRCacGQnBRYrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## Overview
+同學分享實作區塊鏈與期末講解\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+# Week17
+期末考\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+# Week18
+課程已結束\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
