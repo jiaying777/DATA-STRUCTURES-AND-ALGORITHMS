@@ -14,16 +14,39 @@
   * [Insertion Sort](#insertion-sort)
      * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
      * [Insertion Sort程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/04_LeeCode_147.%20Insertion%20Sort%20List.py)
-* [Week5](#Week5)
   * [Quick Sort](#quick-sort)
      * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
+     * [HW1](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW1)
      * [Quick Sort 程式碼](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW_Quick%20Sort/Quick%20Sort.ipynb)
      * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW1/Quick%20Sort%20程式碼與學習歷程.ipynb)<br>
      * [過程](#過程)
      * [過程(另外存取空間)](#過程另外存取空間)
+* [Week5停課](#Week5)
 * [Week6](#Week6)
   * [Heap Sort](#heap-sort)
-     * []()
+     * [課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vRAGwnUvg6BcXoML5u9f4gO6YKcz0vXf7bDnPho_S7mG5D0SBR78djt91RKUPMxqNfkVIcu3l5WCXPh/pub?start=false&loop=false&delayms=3000&slide=id.p)
+     * [HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)
+     * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap_sort_05113009.py)
+     * [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap%20sort%20流程圖、學習歷程與文字說明.pdf)
+     * [老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_HeapSort.py)
+* [Week7](#Week7)
+  * [Quick Sort](#quick-sort)
+     * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vToxkEzc1H1RT5MI9G941KQFBC7GO_Efn95wTqXLEdr3LDBSNcQb-M46IOC-_RzZih6IBEwwy3rWQuE/pub?start=false&loop=false&delayms=3000&slide=id.p)
+     * [老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_QuickSort_LinkedList.py)
+     * [HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)
+     * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge_sort_05113009.py)
+     * [學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge%20sort%20流程圖、學習歷程與文字說明.pdf)
+* [Week8](#Week8)
+  * [Binary Tree](#Binary-Tree)
+    * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSC3P8sGElP48mJTjqT309470SmTFBwJXWsU9hTX2hg5tVpiG4yC703qA7ibPep-Qakmm2Mw_F-ScZh/pub?start=false&loop=false&delayms=3000&slide=id.g707e8c8328_0_30)
+* [Week9](#Week9)
+  * [Binary Search Tree](#Binary-Search-Tree)
+    * [課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQgUh73yvSdxAvMH50DHWJ5lsCX8-daMxtoltU9rYW7xCmqYz2A1wOv0Vcx_F9KO5ZUvZBv3IF1TjGi/pub?start=false&loop=false&delayms=3000&slide=id.p)
+    * [HW3](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW3)
+    * [功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)
+    * [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)
+    * [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
+* [Week10](#Week10)
 
 # Week1
 課程介紹\
@@ -100,7 +123,8 @@ Queue（佇列）為一種資料結構，可以用 Array 或是 Linked List 的�
 [回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
 # Week4
-[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
+[Insertion Sort課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQOTMDM-5-OUaGfnLUOFVgefFwSVRplSwnbicp0CXOQrB5H8RM_1Aq8o_4JxHlncEmhjvqk3tzcoB7s/pub?start=false&loop=false&delayms=3000&slide=id.p)
+[Quick Sort課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
 ## Insertion Sort
 **插入排序法**,想像手上有一副撲克牌，若想要將紙牌從左到右按照「小到大」排序。\
@@ -119,9 +143,6 @@ Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
 [參考資料](http://alrightchiu.github.io/SecondRound/comparison-sort-insertion-sortcha-ru-pai-xu-fa.html)\
 [回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
-
-# Week5
-[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSqz8sTxT4xyjgiz-htLvZd7FZ_5ZzgKf60pFEoNLU5S77JxrsGJ2vd15CdxlfLtT3g2aizHP-Ebk9b/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
 ## Quick Sort
 **快速排序法**，先決定取一個固定的位子為pivot，再依序將其餘的數值與pivot比大小，將比pivot小的都丟掉左邊，比pivot大的都丟到右邊。 再來將比pivot小的那些數值再比一次大小，並一樣取第一個為pivot，比pivot大的也用同樣的方式處理，直到不能再處理，亦即所有數值都依照大小都排好了。\
@@ -157,10 +178,25 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
 
 [回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
+
+# Week5
+雙十連假停課一次\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
 # Week6
 ## Heap Sort
+[課程投影片](https://docs.google.com/presentation/d/e/2PACX-1vRAGwnUvg6BcXoML5u9f4gO6YKcz0vXf7bDnPho_S7mG5D0SBR78djt91RKUPMxqNfkVIcu3l5WCXPh/pub?start=false&loop=false&delayms=3000&slide=id.p)\
+[老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_HeapSort.py)
+
 ### ***以陣列的形式表現，但要以二元樹的方式理解。***
-每個子結點都必須小於父節點，當子結點大於父結點時，兩者交換位置，直到所有子結點都小於父結點，並且在最後將第一個結點拿出來，再將最後一個結點移到最前面，繼續進行排序，直到排序結束。<br>
+* 子節點不得比父節點大，若子節點較大，則與父節點換位
+* 比較後，最頂端的父節點為此數列的最大值，將其取出放入暫存空間 
+* 取出最大值後，再進行一次比較排序
+* 直到將所有數值由大到小都取出後，數列即完成排序
+[HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)\
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap_sort_05113009.py)\
+[學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/heap%20sort%20流程圖、學習歷程與文字說明.pdf)
+<br>
 
 ![](https://algorithm.yuanbin.me/shared-files/images/Heapsort-example.gif)
 [圖片來源](https://algorithm.yuanbin.me/zh-tw/basics_data_structure/heap.html)
@@ -168,14 +204,70 @@ return small + pivotlist + big --> [17, 20, 26, 31, 44, 54, 55, 77, 93]
   * python index:i
     * left:2i+1
     * right:2i+2
-    
-    
-# Week7    
-## Merge Sort
+  
 
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/heap%20sort%20圖.png" width="50%">
+<br>
+
+[參考資料](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+    
+# Week7  
+[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vToxkEzc1H1RT5MI9G941KQFBC7GO_Efn95wTqXLEdr3LDBSNcQb-M46IOC-_RzZih6IBEwwy3rWQuE/pub?start=false&loop=false&delayms=3000&slide=id.p)\
+[老師程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/class/06_QuickSort_LinkedList.py)
+
+## Merge Sort
+* 把數列對半拆解，直到每個數列都只剩一個數值
+* 將拆解好的數列倆倆做比較，比較後再做合併
+* 依此類推，直到所有數列都合併成一個數列，即完成排序
+[HW2](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW2)\
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge_sort_05113009.py)\
+[學習歷程](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW2/merge%20sort%20流程圖、學習歷程與文字說明.pdf)
+<br>
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/圖/merge%20sort%20圖.png" width="50%">
+<br>
+
+[參考資料](https://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
+
+# Week8
+[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vSC3P8sGElP48mJTjqT309470SmTFBwJXWsU9hTX2hg5tVpiG4yC703qA7ibPep-Qakmm2Mw_F-ScZh/pub?start=false&loop=false&delayms=3000&slide=id.g707e8c8328_0_30)
 
 ## Binary Tree
+最廣義的樹(Tree)對於樹上的node之child數目沒有限制，因此，每個node可以有多個child。\
+若限制node只能有兩個child，等價於「樹上的每一個node之degree皆為2」，此即稱為Binary Tree(二元樹)，並稱兩個child pointer為left child和right child。
+<br>
 
+[參考資料](http://alrightchiu.github.io/SecondRound/binary-tree-introjian-jie.html)\
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
+# Week9
+[課堂投影片](https://docs.google.com/presentation/d/e/2PACX-1vQgUh73yvSdxAvMH50DHWJ5lsCX8-daMxtoltU9rYW7xCmqYz2A1wOv0Vcx_F9KO5ZUvZBv3IF1TjGi/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
+## Binary Search Tree
+BST為二元樹，亦即每一個節點底下都只能有兩個子節點，BST與Binary Tree最大的差別在於有大小順序，Binary Tree每一個節點底下最多只能有兩個子節點，這點與BST一樣，不過Binary Tree的任意子節點可以大於、等於或小於父節點，但BST不行，BST需要透過比較大小進行搜尋排序等等動作，也正是因為有這項特徵，所以方便我們尋找資料，不需要走訪過每一個節點。
+<br>
+
+Binary Search Tree:
+* 每個節點底下最多只會有兩個子節點
+* 需比較大小，非數值型資料，則可以新增編號等等，以便排序
+* 有一定的排序規則：
+        - 比節點小的放左邊
+        - 比節點大的放右邊
+        - 與節點相等的可放左或右邊，不過要統一（自行定義）
+[HW3](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/tree/master/HW3)\
+[功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)<br>
+[程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)<br>
+[學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
+<br>
+
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/delete%20流程圖.jpg" width="50%">
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/insert流程圖.jpg" width="50%">
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/modify流程圖.jpg" width="50%">
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/search流程圖.jpg" width="50%">
+<br>
+
+[參考資料](http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html)
+[回目錄](#DATA-STRUCTURES-AND-ALGORITHMS)
 
