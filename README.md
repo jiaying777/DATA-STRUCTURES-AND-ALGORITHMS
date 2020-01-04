@@ -262,8 +262,8 @@ Binary Search Tree:
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
 <br>
 
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/delete%20流程圖.jpg" width="50%"> <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/insert流程圖.jpg" width="50%">
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/modify流程圖.jpg" width="50%"> <img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/search流程圖.jpg" width="50%">
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/delete%20流程圖.jpg" width="50%"><img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/insert流程圖.jpg" width="50%">
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/modify流程圖.jpg" width="50%"><img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/search流程圖.jpg" width="50%">
 <br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html)\
