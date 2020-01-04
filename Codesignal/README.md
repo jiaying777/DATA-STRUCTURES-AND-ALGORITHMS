@@ -1,2 +1,2 @@
-Codesignal是課程一開始用來幫助我們複習python的。
+Codesignal是課程一開始用來幫助我們複習python的。\
 由於一開始比較不認真，所以Codesigna並沒有刷太多題目，這裡只呈現當初稍做的一些筆記內容。
