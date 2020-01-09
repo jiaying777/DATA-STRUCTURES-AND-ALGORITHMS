@@ -10,3 +10,19 @@
 [1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)\
 <br>
 其實想要挑戰難一點的題目，但是有礙於時間壓力，所以只好先刷一些簡單的題目。
+<br>
+
+題目  | Quick Sort | Heap Sort | Merge Sort | Insertion Sort | Seletion Sort| 
+-------------|------------|-----------|------------|----------------|--------------|
+Best Case    | NlogN      |NlogN |NlogN |N|N^2
+Average Case | NlogN      |NlogN |NlogN |N^2|N^2
+Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
+<br>
+
+題目|補充註解|
+-------------|------------|
+226.Invert Binary Tree|[Binary Tree](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS#binary-tree)
+938.Range Sum of BST|[Binart Search Tree](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS#binary-search-tree)
+705.Design HashSet|[Hash Table](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS#hash-table)
+912.Sort an Array|[Merge Sort](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS#merge-sort)
+
