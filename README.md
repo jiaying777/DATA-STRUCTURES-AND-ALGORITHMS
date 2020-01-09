@@ -362,8 +362,10 @@ Binary Search Tree:
 ## Red Black Tree
 Red Black Tree(RBT)是node塗了「顏色」的Binary Search Tree(BST)，藉由控制顏色，能夠保證在RBT中，最長path(路徑)不會超過最短path的兩倍，若最短的path是5，最長的path至多只能是10，如此RBT便能夠近似地視為平衡。\
 平衡方法：改顏色、左旋轉、右旋轉
+<br>
 
 <img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Intro/f4.png?raw=true" width="70%">
+<br>
 
 Red Black Tree 規則：
 * 節點為紅或黑色
@@ -372,28 +374,33 @@ Red Black Tree 規則：
 * 每個空節點為黑色
 * 從root到leaf的每條路徑所包含的黑點要相同
 
-
+<br>
 <img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate0.png?raw=true' width="30%">
 <br>
 新增：node(31)
-<br>
-<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate2.png?raw=true' width='30%'
-<br>
+<br><br>
+
+<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate2.png?raw=true' width='30%'>
+<br><br>
+
 新增後無法滿足RBT的規則，因此需要進行平衡\
 方法：將node(35)塗成紅色，node(34)塗成黑色，並且對node(35)進行Right Rotation(向右旋轉)。\
 在執行Rotation時，有時會順便調整RBT的height(樹高)，使得RBT維持在平衡(balanced)的狀態。
-<br>
+<br><br>
+
 <img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate3.png?raw=true' width='70%'>
 <br>
 新增node(31)後，刪除node(20)
-<br>
+<br><br>
+
 <img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate4.png?raw=true' width='30%'>
 <br>
 從root到leaf的每條路徑所包含的黑點要相同，因此需要進行修正。\
 方法：將node(30)塗黑，node(34)塗紅，然後對node(34)進行Left Rotation(向左旋轉)。
-<br>
-<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate5.png?raw=true' width='70%'>
+<br><br>
 
+<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate5.png?raw=true' width='70%'>
+<br><br>
 
 
 [參考資料](http://alrightchiu.github.io/SecondRound/red-black-tree-rotationxuan-zhuan.html)\
