@@ -1,7 +1,10 @@
 class Solution(object):
     def merge_sort(self,list):
     
-        list1,list2 = self.split(list)
+        if len(list) <= 1: #新增條件，避免錯誤
+            return list
+        if len(list) > 1:
+            list1,list2 = self.split(list)
         if len(list1) > 1:
             list1 = self.merge_sort(list1)
         if len(list2) > 1:
