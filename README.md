@@ -335,10 +335,22 @@ Binary Search Tree:
 [功能說明](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20功能說明.ipynb)<br>
 [程式碼](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary_search_tree_05113009.py)<br>
 [學習歷程](https://nbviewer.jupyter.org/github/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/HW3/binary%20search%20tree%20學習歷程與流程圖.ipynb)
+<br><br><br>
+新增：
 <br>
-
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/delete%20流程圖.jpg" width="50%"><img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/insert流程圖.jpg" width="50%">
-<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/modify流程圖.jpg" width="50%"><img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/search流程圖.jpg" width="50%">
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/insert流程圖.jpg" width="50%">
+<br><br>
+刪除：
+<br>
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/delete%20流程圖.jpg" width="50%">
+<br><br>
+修改：
+<br>
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/modify流程圖.jpg" width="50%">
+<br><br>
+查詢：
+<br>
+<img src="https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS/blob/master/Binary%20Search%20Tree/search流程圖.jpg" width="50%">
 <br>
 
 [參考資料](http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html)\
@@ -351,6 +363,8 @@ Binary Search Tree:
 Red Black Tree(RBT)是node塗了「顏色」的Binary Search Tree(BST)，藉由控制顏色，能夠保證在RBT中，最長path(路徑)不會超過最短path的兩倍，若最短的path是5，最長的path至多只能是10，如此RBT便能夠近似地視為平衡。\
 平衡方法：改顏色、左旋轉、右旋轉
 
+<img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Intro/f4.png?raw=true" width="70%">
+
 Red Black Tree 規則：
 * 節點為紅或黑色
 * root一定要為黑色
@@ -358,9 +372,31 @@ Red Black Tree 規則：
 * 每個空節點為黑色
 * 從root到leaf的每條路徑所包含的黑點要相同
 
-<img src="https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Intro/f4.png?raw=true" width="70%">
-<br>
 
+<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate0.png?raw=true' width="30%">
+<br>
+新增：node(31)
+<br>
+<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate2.png?raw=true' width='30%'
+<br>
+新增後無法滿足RBT的規則，因此需要進行平衡\
+方法：將node(35)塗成紅色，node(34)塗成黑色，並且對node(35)進行Right Rotation(向右旋轉)。\
+在執行Rotation時，有時會順便調整RBT的height(樹高)，使得RBT維持在平衡(balanced)的狀態。
+<br>
+<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate3.png?raw=true' width='70%'>
+<br>
+新增node(31)後，刪除node(20)
+<br>
+<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate4.png?raw=true' width='30%'>
+<br>
+從root到leaf的每條路徑所包含的黑點要相同，因此需要進行修正。\
+方法：將node(30)塗黑，node(34)塗紅，然後對node(34)進行Left Rotation(向左旋轉)。
+<br>
+<img src='https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Tree%20series/RBT_fig/Rotation/rotate5.png?raw=true' width='70%'>
+
+
+
+[參考資料](http://alrightchiu.github.io/SecondRound/red-black-tree-rotationxuan-zhuan.html)\
 [參考資料](https://alrightchiu.github.io/SecondRound/red-black-tree-introjian-jie.html)\
 [回目錄](#目錄)
 
