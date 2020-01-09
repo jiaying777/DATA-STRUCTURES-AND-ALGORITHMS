@@ -12,13 +12,6 @@
 其實想要挑戰難一點的題目，但是有礙於時間壓力，所以只好先刷一些簡單的題目。
 <br>
 
-題目  | Quick Sort | Heap Sort | Merge Sort | Insertion Sort | Seletion Sort| 
--------------|------------|-----------|------------|----------------|--------------|
-Best Case    | NlogN      |NlogN |NlogN |N|N^2
-Average Case | NlogN      |NlogN |NlogN |N^2|N^2
-Worst Case   | N^2        |NlogN |NlogN |N^2|N^2
-<br>
-
 題目|補充註解|
 -------------|------------|
 226.Invert Binary Tree|[Binary Tree](https://github.com/jiaying777/DATA-STRUCTURES-AND-ALGORITHMS#binary-tree)
